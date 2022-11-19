@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400&family=Smooch+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Roboto:ital,wght@1,300;1,400&family=Smooch+Sans:wght@200&display=swap');
+:root{
+    --main-bg-color: #2eadb6dc;
+    --font1:'Baloo Bhaijaan 2', cursive;
+    --font2:'Roboto', sans-serif;
+}
+
+.max-width-1{
+    max-width: 80vw;
+}
+.max-width-2{
+    max-width: 60vw;
+}
+.m-auto{
+    margin: auto;
+}
+
+.btn{
+padding:8px 18px;
+cursor: pointer;
+border-radius: 5px;
+margin-top: 3px;
+}
+.btn:hover{
+    color:white;
+    background-color: var(--main-bg-color);
+    transition: all 0.3s ease-in-out;
+}
+.my-2{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    font-size: 16px;
+    font-family: var(--font1);
+}
